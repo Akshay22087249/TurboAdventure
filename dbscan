@@ -1,0 +1,29 @@
+### **Algorithm Example (Mathematical)**:
+
+There are 3 points: A (1, 1), B(1, 2) and C (10, 10)
+
+When have an Epsilon of 2 and a MinPts of 2.
+
+We calculate the euclidian distance:
+A to B = 1
+sqrt((1-1)^2 + (2-1)^2) = 1
+
+A to C = 12,73
+sqrt((10-1)^2 + (10-1)^2) ~ 12,73
+
+B to C = 12,04
+sqrt((10-1)^2 + (10-2)^2) ~ 12,04
+
+None of the points have at least 2 neighbors within Epsilon 2.
+
+Therefore all of these points are classified as Noise!
+
+With an Epsilon of 15 all of them would be a Core Point!
+
+With an Epsilon of 12,5 B would be a Core Point! A and C would be Border points!
+
+
+
+
+
+
